@@ -1,5 +1,5 @@
 // Typing animation
-const text = ["Web Developer", "Java Programmer", "Frontend Designer"];
+const text = ["Web Developer ", "Java Programmer", "Frontend Designer"];
 let index = 0;
 let charIndex = 0;
 let currentText = "";
@@ -36,3 +36,4 @@ type();
 function showAlert() {
     alert("Thanks for visiting my portfolio!");
 }
+showAlert()
